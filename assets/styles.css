@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #fb87b7;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto; 
+    background-color: white;
+    min-height: 70vh;
+}
+.progress-bar-container {
+    background-color: #e9ecef; 
+    border-radius: 5px;    
+    margin-bottom: 15px;
+    height: 20px;           
+    width: 100%;            
+    overflow: hidden;       
+}
+
+
+.progress-bar {
+    height: 100%;
+    color: rgba(176, 16, 16, 0.852);           
+    text-align: right;      
+    line-height: 20px;      
+    padding-right: 5px;
+    font-size: 0.8em;
+    transition: width 0.8s ease-out;
+}
+
+#skill-html {
+    width: 75%; 
+    background-color: #286ca7;
+}
+
+#skill-js {
+    width: 45%; 
+    background-color: #0b07ff; 
+}
+
+#skill-db {
+    width: 60%; 
+    background-color: #27b817;
+}
+
+/* Styling Footer dan Verifikasi Link */
+footer {
+    background-color: #fb87b7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+footer a {
+    color: #14130d; 
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.table-responsive {
+    overflow-x: auto; 
+}
+
+form input:not([type="radio"]):not([type="checkbox"]), 
+form select, 
+form textarea {
+    display: block; 
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        padding: 5px 0;
+    }
+    main {
+        padding: 10px;
+    }
+}
